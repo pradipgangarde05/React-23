@@ -1,4 +1,5 @@
 import { getRoles } from "@testing-library/react";
+import "./App.css";
 
 function App(){
   let str = { background: "green", color: "white" };
@@ -9,6 +10,12 @@ function App(){
 
   return(
     <>
+         <>
+      <h1 className="beautiful">Hello World</h1>
+
+      <h1 style={{ color: "red" }}>Hello</h1>
+    </>
+
        <h1 style={str}>"hello react"</h1>
 
       <h2 style={{background:"blue" ,color:"white" }} > hiii nikhil </h2>
