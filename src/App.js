@@ -1,20 +1,24 @@
-// JSX with 1 Tag or 1 H1
-// JSX with 2 Tag or 2 H1
-// RULE::IF USING MORE THAN 1 TAG; IT MUST BE UUNDER PARENT
-// RULE::IF One liner, paranthesis are optional
-// RULE::IF multi-liner liner, paranthesis Required
-
 function App(){
-  let var1=<h1>hello in  timepass react app  </h1>
-  let var2=<h1>hello in  timepass react project  </h1>
-  
-return ( 
-  <>
-  <h1>{(false?var1:var2)}  </h1>
-  
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur nulla est illo perferendis accusamus, corrupti voluptates praesentium numquam nemo fugiat.
-  </>
-) ;
-}
+  let str=`heello guys welcome in react`;
+  let pi=3.1144;
+  let active=true;
+  let inactive=false;
+  let user = { id: 1, name:"pradip" };
 
+  return(
+    <>
+      <h1>hello react</h1>
+      <h1>str</h1>
+      <h1>PI {str}</h1>
+      {active && <h1>hii nikhil</h1> }     
+      {inactive && <h1>hii nikhil</h1> }
+
+         {active ? <h1>Good Morning</h1> : <h1>Good Night</h1>}   
+         <h1>
+          id:{user.id}Name:{user.name};
+         </h1>
+
+    </>
+  )
+}
 export default App;
