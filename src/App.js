@@ -4,17 +4,12 @@
 // RULE::IF One liner, paranthesis are optional
 // RULE::IF multi-liner liner, paranthesis Required
 
-function App() {
-  return (
-    // parent tag
-    <> 
-      <h1>Hello</h1>
-      <h2>parent is required</h2>
-      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum qui earum, provident sed tempora nobis ducimus placeat reprehenderit dolores amet suscipit, molestias sint? Temporibus explicabo quia rem voluptatibus, dolorum eum.    
-      </h1>
-      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus velit sit aliquid ex accusamus voluptatum.</h3>
-    </>
-  );
+function App(){
+  let var1=<h1>hello in  timepass react app  </h1>
+  let var2=<h1>hello in  timepass react project  </h1>
+
+return true?var1:var2;
+
 }
 
 export default App;
