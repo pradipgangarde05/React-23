@@ -1,5 +1,7 @@
+import { getRoles } from "@testing-library/react";
+
 function App(){
-  let str=`heello guys welcome in react`;
+  let str = { background: "green", color: "white" };
   let pi=3.1144;
   let active=true;
   let inactive=false;
@@ -7,17 +9,13 @@ function App(){
 
   return(
     <>
-      <h1>hello react</h1>
-      <h1>str</h1>
-      <h1>PI {str}</h1>
-      {active && <h1>hii nikhil</h1> }     
-      {inactive && <h1>hii nikhil</h1> }
+       <h1 style={str}>"hello react"</h1>
 
-         {active ? <h1>Good Morning</h1> : <h1>Good Night</h1>}   
-         <h1>
-          id:{user.id}Name:{user.name};
-         </h1>
+      <h2 style={{background:"blue" ,color:"white" }} > hiii nikhil </h2>
 
+      <h1 style={{ backgroundColor: "red", color: "black", padding: "8px" }}>
+        hello World
+      </h1>
     </>
   )
 }
