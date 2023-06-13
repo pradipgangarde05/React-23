@@ -1,41 +1,32 @@
-
 function App() {
   return (
     <>
-        <h1 className="bg-primary text-light p-3">My Boot Project</h1>
-        <div className="alert alert-primary">
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-        laborum minima doloremque tempora in alias delectus voluptatum ipsum.
-        Deleniti optio ad rem provident esse, veritatis ipsam incidunt. Illum,
-        explicabo omnis. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Provident esse tenetur blanditiis voluptatibus ex ab, ad in harum
-        nostrum ipsam quaerat quia dolore suscipit id consequatur quis delectus
-        neque animi?
-      </div>
+      <h1 className="bg-primary text-light p-3">My Project</h1>
+      <Data />
+      <Data />
+      <Data />
+      <Data />
+      <Data/>
+    </>
+  );
+}
 
-      <div className="alert alert-primary">
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-        laborum minima doloremque tempora in alias delectus voluptatum ipsum.
-        Deleniti optio ad rem provident esse, veritatis ipsam incidunt. Illum,
-        explicabo omnis. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Provident esse tenetur blanditiis voluptatibus ex ab, ad in harum
-        nostrum ipsam quaerat quia dolore suscipit id consequatur quis delectus
-        neque animi?
-      </div>
 
-      <div className="alert alert-primary">
+function Data() {
+  return (
+    <>
+      <div className="alert alert-dark">
         <h1>Lorem ipsum dolor sit amet.</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-        laborum minima doloremque tempora in alias delectus voluptatum ipsum.
-        Deleniti optio ad rem provident esse, veritatis ipsam incidunt. Illum,
-        explicabo omnis. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Provident esse tenetur blanditiis voluptatibus ex ab, ad in harum
-        nostrum ipsam quaerat quia dolore suscipit id consequatur quis delectus
-        neque animi?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nihil
+        adipisci ducimus quisquam a rerum accusantium consequuntur. Quasi itaque
+        qui consectetur, culpa iste nam in quibusdam quisquam doloribus, dicta
+        perspiciatis accusamus praesentium! Quos accusantium explicabo alias
+        perspiciatis voluptates totam consectetur laboriosam voluptas cumque,
+        amet quasi vero nostrum quibusdam ad in mollitia soluta! Voluptatem,
+        porro quo ut in et corporis sunt facere accusantium soluta nisi
+        reprehenderit repellat, minus error, veniam ipsa quasi amet. Numquam hic
+        doloribus, aspernatur saepe .
       </div>
-
     </>
   );
 }
