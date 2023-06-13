@@ -7,9 +7,14 @@
 function App(){
   let var1=<h1>hello in  timepass react app  </h1>
   let var2=<h1>hello in  timepass react project  </h1>
-
-return true?var1:var2;
-
+  
+return ( 
+  <>
+  <h1>{(false?var1:var2)}  </h1>
+  
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur nulla est illo perferendis accusamus, corrupti voluptates praesentium numquam nemo fugiat.
+  </>
+) ;
 }
 
 export default App;
