@@ -11,7 +11,13 @@ function App(){
 function Appfooter(){
   return(
     <>
-    <h2>Insiside footer tag</h2>
+        <div
+    className="bg-dark text-light fs-1 d-flex justify-content-center align-items-center"
+    style={{height:"200px"}}
+    >
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+    </div>
+    
     </>
   )
   }
@@ -23,15 +29,7 @@ function Appbody(){
         <h2>Insiside Appbody tag</h2>
 
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-        rem corrupti ipsam, necessitatibus, ut tempore nisi aspernatur cumque
-        blanditiis quae quia. Corrupti, in ducimus. Ullam suscipit inventore
-        quam ex non. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Voluptatibus tempora eum cupiditate. Nobis id, facere iure debitis eum a
-        at, nulla placeat, tenetur tempore ratione adipisci deleniti alias
-        aspernatur voluptatem! Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Perspiciatis rem corrupti ipsam, necessitatibus, ut
-        tempore nisi aspernatur cumque blanditiis quae quia. Corrupti, in
-        ducimus. Ullam suscipit inventore quam ex non. Lorem ipsum dolor sit
+        rem corrupti ipsam, necessitatibus, ut non. Lorem ipsum dolor sit
         amet consectetur adipisicing elit. Voluptatibus tempora eum cupiditate.
         Nobis id, facere iure debitis eum a at, nulla placeat, tenetur tempore
         ratione adipisci deleniti alias aspernatur voluptatem!
@@ -51,6 +49,7 @@ return(
   
   </>
 )
+
 }
 
 export default App;
