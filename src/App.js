@@ -2,7 +2,7 @@
 function App(){
   return ( <>
  <h1>Hello app function</h1>
-<Header/>
+<AppHeader/>
 <Appbody/>
 <Appfooter/>
   </>
@@ -24,10 +24,15 @@ function Appbody(){
   )
   }
   
-function Header(){
+function AppHeader(){
 return(
   <>
-  <h1>Inside header tag</h1>
+   <div className="row bg-success text-light p-3 fs-1">
+      <div className="col">Home</div>
+      <div className="col">Project</div>
+      <div className="col">AboutUs</div>
+    </div>
+  
   </>
 )
 }
